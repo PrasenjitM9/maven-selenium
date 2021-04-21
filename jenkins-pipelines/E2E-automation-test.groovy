@@ -1,7 +1,7 @@
 #!groovy
 node {
     stage('Git checkout') { // for display purposes
-        git 'https://github.com/BushnevYuri/e2e-automation-pipeline.git'
+        git 'https://github.com/PrasenjitM9/maven-selenium.git'
     }
     stage('Smoke') {
         try {
